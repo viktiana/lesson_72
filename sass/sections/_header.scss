@@ -1,0 +1,30 @@
+@import "variables";
+
+header {
+    position: absolute;
+    width: $width-100;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: $white-color;
+}
+
+nav li:last-child a {
+    border: 2px solid $white-color;
+    border-radius: $btn-radius;
+    padding: 8px 15px;
+}
+
+.logo{
+    color: $white-color;
+}

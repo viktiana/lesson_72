@@ -1,0 +1,35 @@
+@import "variables";
+
+.hero-btn {
+    background-color: $red-color;
+    color: $white-color;
+    margin-top: $margin20;
+    margin-bottom: $margin20;
+}
+
+.hero {
+    height: $heigh-700px;
+    background-image: url(../img/cover.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: $line-height1-2;
+}
+
+.hero-title {
+    font-size: $font-size45;
+    text-transform: uppercase;
+    width: $width-500px;
+    color: $white-color;
+    line-height: $line-height1-2;
+}
+
+.hero-description {
+    font-size: $font-size24;
+    line-height: $line-height1-8;
+    color: $white-color;
+}

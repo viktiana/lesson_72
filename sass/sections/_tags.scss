@@ -1,0 +1,30 @@
+@import "variables";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: $font-family;
+}
+
+a {
+    color: $inherit-color;
+    text-decoration: none;
+    font-family: $font-family;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    border: 2px solid $red-color;
+    border-radius: $btn-radius;
+    cursor: pointer;
+    padding: $btn-padding;
+    font-family: $font-family;
+    font-weight: $btn-weight;
+}
