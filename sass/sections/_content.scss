@@ -5,14 +5,14 @@
     margin-right: $margin70;
     margin-top: $margin70;
     margin-bottom: 50px;
+    text-align: center;
+    
 }
 
 .content-btn {
-    display: block;
-
     background-color: transparent;
     color: $red-color;
-
+    cursor: pointer;
 }
 
 .container {
